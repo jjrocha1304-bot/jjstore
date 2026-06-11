@@ -1,0 +1,214 @@
+/* ==== ESTILOS header.php ==== */
+
+/* Estado Hover */
+.menu-tienda .navbar-nav .enlace-menu .nav-link:hover {
+    color: #ffffff !important;
+    background-color: #1747cc !important;
+    border-color: #1e22d8 !important;
+    border-radius: 10px !important;
+}
+
+/* ==== ESTILOS catalogo.php ==== */
+
+.btn-carrito {
+    background: orange;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-carrito:hover {
+    background: #e49432;
+    color: black;  
+}
+
+.contenedor-catalogo-encabezado {
+    display: flex;
+    justify-content: space-between;    
+    padding: 60px;
+    margin-top: 80px;
+}
+
+.contenedor-catalogo-detalle {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+    margin-bottom: 90px;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding:30px;    
+    border-radius: 8px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto-imagen {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.producto-nombre {
+    margin: 10px 0;
+}
+
+.producto-precio {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: gray;
+}
+
+.producto-stock {
+    color: #666;
+} 
+
+.btn-agregar {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-agregar:hover {
+    background: #218838;
+    color: #fff;
+}
+
+/* ==== ESTILOS carrito.php ==== */
+
+.btn-volver {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-volver:hover {
+    background: #0056b3;
+}
+
+.td-total {
+    font-weight: bold; 
+    padding: 10px;    
+}
+
+.td-valor {
+    font-weight: bold;
+    padding: 10px;
+    color: green;
+}
+
+.contenedor-botones {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+} 
+
+.btn-seguir {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn-seguir:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+.btn-vaciar {
+    background: #f44336;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn-vaciar:hover {
+    background: #d32f2f;
+    color: #fff;
+}
+
+.btn-generar {
+    background: #04AA6D;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-generar:hover {
+    background: #039f5b;
+    color: #fff;
+}
+
+/* ==== ESTILOS factura.php ==== */
+
+.contenedor-factura {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #fff;
+}
+
+.factura-encabezado {
+    text-align: center;
+}
+
+.tabla-factura {
+    width: 100%;
+    margin-top: 20px;    
+}
+
+.factura-encabezado th {
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.factura-total {
+    text-align: right;
+    color: green;
+    font-weight: bold;
+}
+
+.contendor-factura-botones {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.factura-btn-imprimir {
+    padding: 10px 20px;
+    color: #fff;
+    background: #838688;
+    cursor: pointer;
+}
+
+.factura-btn-imprimir:hover {
+    background: #6c6c6c;
+    color: #fff;
+} 
+
+.factura-btn-volver {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.factura-btn-volver:hover {
+    background: #0056b3;
+    color: #fff;
+}
